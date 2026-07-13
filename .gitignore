@@ -1,0 +1,6 @@
+.DS_Store
+
+# Chrome extension packaging output
+*.zip
+*.crx
+*.pem

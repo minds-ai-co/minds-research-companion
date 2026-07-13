@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Selecta';
+  src: url('fonts/selecta-regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Selecta';
+  src: url('fonts/selecta-bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+:root { color-scheme: light; font-family: 'Selecta', system-ui, sans-serif; }
+body { margin: 0; width: 320px; background: #fff; color: #000; }
+main { padding: 20px; }
+.capture { width: min(640px, calc(100vw - 48px)); margin: 10vh auto; }
+.brand { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; }
+.brand img { width: 25px; height: 25px; object-fit: contain; }
+.separator { height: 0; margin: 18px 0; border-top: 0.5px solid #000; }
+h1 { margin: 0 0 10px; font-size: 20px; line-height: 1.1; font-weight: 700; }
+p { margin: 0 0 18px; line-height: 1.45; font-size: 14px; }
+.label { margin-bottom: 8px; font-size: 12px; }
+blockquote { margin: 0 0 18px; padding: 0 0 0 14px; border-left: 1px solid #000; background: transparent; color: #000; white-space: pre-wrap; line-height: 1.45; font-size: 14px; }
+.button { display: inline-block; border: 0; border-radius: 999px; padding: 10px 16px; background: #000; color: #fff; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+.button:focus-visible { outline: 1px solid #000; outline-offset: 3px; }
+.status { min-height: 1.45em; margin: 12px 0 0; font-size: 12px; }

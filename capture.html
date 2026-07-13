@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Send to Minds</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="capture">
+      <header class="brand">
+        <img src="brand-icon.png" alt="Minds" />
+        <span>Minds</span>
+      </header>
+      <div class="separator" aria-hidden="true"></div>
+      <h1>Ready for Minds</h1>
+      <p class="label">Selected text</p>
+      <blockquote id="selection">Loading…</blockquote>
+      <button class="button" id="copy">Copy and open Minds</button>
+      <p id="status" class="status" aria-live="polite"></p>
+    </main>
+    <script src="capture.js"></script>
+  </body>
+</html>
